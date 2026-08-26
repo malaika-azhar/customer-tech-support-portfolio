@@ -81,7 +81,8 @@ Professional write-ups for issues that exceed Tier-1 scope.
 
 ## 🔗 Related Portfolio
 
-**Cisco Networking Portfolio** — 28 hands-on labs (11 networking, 8 security, 9 IT support)
+**Cisco Networking Portfolio** — 28 hands-on labs (11 networking, 8 security, 9 IT support)  
+[View Repository](https://github.com/malaika-azhar/cisco-networking-lab-portfolio)
 
 ---
 
