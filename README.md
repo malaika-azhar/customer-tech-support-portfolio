@@ -1,4 +1,3 @@
-markdown
 # ☁️ Customer Technical Support Portfolio
 
 > Professional IT support documentation demonstrating troubleshooting, ticket handling, and customer communication skills.
@@ -18,29 +17,26 @@ markdown
 ---
 
 ## 🏗️ Architecture Overview
-┌─────────────────────────────────────────────────────────────────┐
-│ CUSTOMER SUPPORT PORTFOLIO │
-│ 5 Projects | 25 Files │
-├─────────────────────────────────────────────────────────────────┤
-│ │
-│ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐ │
-│ │ Video KB │ │ Tickets │ │ Flowcharts │ │
-│ │ (5 files) │ │ (5 files) │ │ (5 files) │ │
-│ │ teach the │ │ log the │ │ diagnose │ │
-│ │ fix │ │ fix │ │ the fix │ │
-│ └─────────────┘ └─────────────┘ └─────────────┘ │
-│ │
-│ ┌─────────────┐ ┌─────────────┐ │
-│ │ Solution │ │ Escalation │ │
-│ │ Guides │ │ Scripts │ │
-│ │ (5 files) │ │ (5 files) │ │
-│ │ explain to │ │ hand off │ │
-│ │ end-user │ │ complex │ │
-│ └─────────────┘ └─────────────┘ │
-│ │
-└─────────────────────────────────────────────────────────────────┘
 
-text
+```mermaid
+flowchart TB
+    Title["☁️ Customer Technical Support Portfolio<br/>5 Projects · 25 Files"]
+
+    A["🎥 Video Knowledge Base<br/>5 files — teach the fix"]
+    B["📝 Ticket Simulations<br/>5 files — log the fix"]
+    C["🔧 Troubleshooting Flowcharts<br/>5 files — diagnose the fix"]
+    D["📄 Solution Guides<br/>5 files — explain to end-user"]
+    E["🗣️ Escalation Scripts<br/>5 files — hand off complex issues"]
+
+    Title --> A --> B --> C --> D --> E
+
+    style Title fill:#0D2354,color:#ffffff,stroke:#C8A851,stroke-width:2px
+    style A fill:#f5f7fa,stroke:#0D2354,stroke-width:1.5px
+    style B fill:#f5f7fa,stroke:#0D2354,stroke-width:1.5px
+    style C fill:#f5f7fa,stroke:#0D2354,stroke-width:1.5px
+    style D fill:#f5f7fa,stroke:#0D2354,stroke-width:1.5px
+    style E fill:#f5f7fa,stroke:#0D2354,stroke-width:1.5px
+```
 
 ---
 
@@ -91,6 +87,8 @@ Technical writing · Customer communication · Problem diagnosis · Documentatio
 ---
 
 ## 📁 Repository Structure
+
+```
 customer-tech-support-portfolio/
 │
 ├── README.md
@@ -98,46 +96,45 @@ customer-tech-support-portfolio/
 ├── PROJECTS-SUMMARY.md
 │
 ├── 01-video-knowledge-base/
-│ ├── README.md
-│ ├── 01.1-DNS-Resolution-Issue.md
-│ ├── 01.2-Email-Sending-Failure.md
-│ ├── 01.3-VPN-Connection-Failed.md
-│ ├── 01.4-Printer-Offline.md
-│ └── 01.5-WiFi-Connectivity.md
+│   ├── README.md
+│   ├── 01.1-DNS-Resolution-Issue.md
+│   ├── 01.2-Email-Sending-Failure.md
+│   ├── 01.3-VPN-Connection-Failed.md
+│   ├── 01.4-Printer-Offline.md
+│   └── 01.5-WiFi-Connectivity.md
 │
 ├── 02-ticket-simulations/
-│ ├── README.md
-│ ├── 02.1-DNS-Ticket.md
-│ ├── 02.2-Email-Ticket.md
-│ ├── 02.3-VPN-Ticket.md
-│ ├── 02.4-Printer-Ticket.md
-│ └── 02.5-WiFi-Ticket.md
+│   ├── README.md
+│   ├── 02.1-DNS-Ticket.md
+│   ├── 02.2-Email-Ticket.md
+│   ├── 02.3-VPN-Ticket.md
+│   ├── 02.4-Printer-Ticket.md
+│   └── 02.5-WiFi-Ticket.md
 │
 ├── 03-troubleshooting-flowcharts/
-│ ├── README.md
-│ ├── 03.1-WiFi-Flowchart.md
-│ ├── 03.2-Email-Flowchart.md
-│ ├── 03.3-VPN-Flowchart.md
-│ ├── 03.4-Printer-Flowchart.md
-│ └── 03.5-DNS-Flowchart.md
+│   ├── README.md
+│   ├── 03.1-WiFi-Flowchart.md
+│   ├── 03.2-Email-Flowchart.md
+│   ├── 03.3-VPN-Flowchart.md
+│   ├── 03.4-Printer-Flowchart.md
+│   └── 03.5-DNS-Flowchart.md
 │
 ├── 04-solution-guides/
-│ ├── README.md
-│ ├── 04.1-WiFi-Guide.md
-│ ├── 04.2-Email-Guide.md
-│ ├── 04.3-VPN-Guide.md
-│ ├── 04.4-Printer-Guide.md
-│ └── 04.5-Password-Reset-Guide.md
+│   ├── README.md
+│   ├── 04.1-WiFi-Guide.md
+│   ├── 04.2-Email-Guide.md
+│   ├── 04.3-VPN-Guide.md
+│   ├── 04.4-Printer-Guide.md
+│   └── 04.5-Password-Reset-Guide.md
 │
 └── 05-escalation-scripts/
-├── README.md
-├── 05.1-Website-Down.md
-├── 05.2-VPN-Auth-Failed.md
-├── 05.3-Email-Delivery-Failure.md
-├── 05.4-Printer-Update-Issue.md
-└── 05.5-WiFi-DHCP-Exhaustion.md
-
-text
+    ├── README.md
+    ├── 05.1-Website-Down.md
+    ├── 05.2-VPN-Auth-Failed.md
+    ├── 05.3-Email-Delivery-Failure.md
+    ├── 05.4-Printer-Update-Issue.md
+    └── 05.5-WiFi-DHCP-Exhaustion.md
+```
 
 ---
 
